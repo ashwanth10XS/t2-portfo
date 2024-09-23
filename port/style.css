@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+nav {
+    background-color:grey;
+    padding: 10px 0;
+    text-align: right; 
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    right: 0; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#about p, #contact p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 10px 15px;
+    background-color: #eee;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #333;
+    font-weight: bold;
+}
+
+
